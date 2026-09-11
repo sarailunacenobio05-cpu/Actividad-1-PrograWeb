@@ -20,9 +20,9 @@ Ejercicio 6: Secciones Semánticas Básicas
 
 Requisitos previos:
 
-● Tener instalado XAMPP en tu computadora.
+● Tener instalado XAMPP.
 
-● Iniciar el servidor el servidor apache en el panel de control.
+● Iniciar el servidor apache en el panel de control.
 
 ● Visual studio code
 
