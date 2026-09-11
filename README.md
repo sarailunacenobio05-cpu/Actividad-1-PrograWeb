@@ -18,6 +18,7 @@ Objetivo: Aprender a estructurar contenido básico en HTML utilizando etiquetas 
 enlaces, imágenes y secciones semánticas, sin depender de CSS o JavaScript.
 
 Requisitos previos:
+
 ● Tener instalado XAMPP en tu computadora.
 
 ● Iniciar el servidor el servidor apache en el panel de control.
