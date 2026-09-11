@@ -1,29 +1,16 @@
-Actividad 1: Fundamentos de Estructura y Contenido HTML
+# Programación Web
 
-Objetivo: Aprender a estructurar contenido básico en HTML utilizando etiquetas esenciales para texto,
-enlaces, imágenes y secciones semánticas, sin depender de CSS o JavaScript.
+## Actividad 1: Fundamentos de Estructura y Contenido HTML
 
-Ejercicios:
+### Objetivo
+Aprender a estructurar contenido básico en HTML utilizando etiquetas esenciales para texto, enlaces, imágenes y secciones semánticas, sin depender de CSS o JavaScript.
 
-Ejercicio 1: Hola Mundo
+---
 
-Ejercicio 2: Párrafos y Formato Básico
-
-Ejercicio 3: Enlaces Simples
-
-Ejercicio 4: Imágenes Básicas
-
-Ejercicio 5: Combinando Texto y Enlaces
-
-Ejercicio 6: Secciones Semánticas Básicas
-
-
-Requisitos previos:
-
-● Tener instalado XAMPP.
-
-● Iniciar el servidor apache en el panel de control.
-
-● Visual studio code
-
-● Navegador Web
+### Ejercicios
+* **Ejercicio 1:** Hola Mundo
+* **Ejercicio 2:** Párrafos y Formato Básico
+* **Ejercicio 3:** Enlaces Simples
+* **Ejercicio 4:** Imágenes Básicas
+* **Ejercicio 5:** Combinando Texto y Enlaces
+* **Ejercicio 6:** Secciones Semánticas Básicas
