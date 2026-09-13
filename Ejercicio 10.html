@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="css/Ejercicio 10.css">
+    <script src="js/Ejercicio 10.js"></script>
+    
+</head>
+<body>
+    <div class="contenedor-formulario">
+        <h1>Calculadora</h1>
+        
+        <form class="formulario">
+                
+                <div class="grupo-formulario">
+                    <label for="Celsius">Grados Celsius</label>
+                    <input type="number" id="celsius"  required>
+                </div>
+                <div class="grupo-formulario">
+                    <label for="Fahrenheit">Grados Fahrenheit</label>
+                    <input type="number" id="TF" readonly>
+                </div>
+                <br>
+                <button type="button" onclick="convertir()" class="Bconvertir" >
+                    Convertir 
+                </button>
+            
+            
+        </form>
+    </div>
+    
+</body>
+</html>

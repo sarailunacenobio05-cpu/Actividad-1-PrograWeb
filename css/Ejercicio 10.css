@@ -1,0 +1,72 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Inter',sans-serif;
+    background-color: linen;
+    color: var(--color-texto);
+    line-height: 1.6;
+    padding: 40px 20px;
+}
+.contenedor-formulario{
+    max-width: 600px;
+    margin: 0 auto;
+    background: white;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0,0,0, 0.05);
+}
+
+h1{
+    font-size: 28px;
+    color: rgb(1, 153, 153);
+    margin-top: 8px;
+    text-align: center;
+    
+}
+
+.grupo-formulario{
+    margin-top: 20px;
+}
+
+label{
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 500;
+    font-size: 14px;
+    font-family:Georgia;
+}
+
+input{
+    width: 100%;
+    padding: 12px 15px;
+    border: 1px solid black;
+    border-radius: 8px;
+    transition: all 0.3s;
+}
+
+input:focus{
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(76, 201, 240, 0.2);
+}
+
+.Bconvertir{
+    background-color: rgb(1, 153, 153);
+    color: white;
+    border: none;
+    padding: 14px 24px;
+    border-radius: 8px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.3s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Bconvertir:hover{
+    background-color:rgb(2, 125, 125) ;
+}
