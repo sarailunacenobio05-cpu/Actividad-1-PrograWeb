@@ -14,3 +14,7 @@ Aprender a estructurar contenido básico en HTML utilizando etiquetas esenciales
 * **Ejercicio 4:** Imágenes Básicas
 * **Ejercicio 5:** Combinando Texto y Enlaces
 * **Ejercicio 6:** Secciones Semánticas Básicas
+* **Ejercicio 7:** Listas Anidadas + Enlaces
+* **Ejercicio 8:** "Horario de Clases"
+* **Ejercicio 9:** Formulario de Contacto
+* **Ejercicio 10:** Calculadora
