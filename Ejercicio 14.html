@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="css/Ejercicio 14.css">
+    <script src="js/Ejercicio 14.js"></script>
+    
+</head>
+<body>
+    <div class="contenedor-regresar">
+        <a href="index.html" class="btn-regresar">
+        <img src="img/caja.png" alt="Menú" style="width: 20px; height: 20px;"> Menú
+        </a>
+    </div>
+    <div class="contenedor-formulario">
+        <h1>Arreglo</h1>
+        
+        <form class="formulario">
+                
+                <div class="grupo-formulario">
+                    <label for="numeros">Ingresa numeros:</label>
+                    <input  id="numeros"  required>
+                </div>
+                <div class="grupo-formulario">
+                    <label for="mayor">El numero mayor es:</label>
+                    <input type="number" id="mayor" readonly>
+                    <label for="menor">El numero menor es:</label>
+                    <input type="number" id="menor" readonly>
+                    <label for="promedio">El promedio es:</label>
+                    <input type="number" id="promedio" readonly>
+                </div>
+                <br>
+                <button type="button" onclick="calcular()" class="Bconvertir" >
+                    Calcular
+                </button>
+            
+            
+        </form>
+    </div>  
+</body>
+</html>

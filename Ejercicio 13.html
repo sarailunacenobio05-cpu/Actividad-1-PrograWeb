@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Calculadora</title>
-    <link rel="stylesheet" href="css/Ejercicio 10.css">
-    <script src="js/Ejercicio 10.js"></script>
+    <title>Calculadora </title>
+    <link rel="stylesheet" href="css/Ejercicio 13.css">
+    <script src="js/Ejercicio 13.js"></script>
     
 </head>
 <body>
@@ -15,26 +15,25 @@
             </a>
         </div>
     <div class="contenedor-formulario">
-        <h1>Calculadora</h1>
+        <h1>¿Puedes votar?</h1>
         
         <form class="formulario">
                 
                 <div class="grupo-formulario">
-                    <label for="Celsius">Grados Celsius</label>
-                    <input type="number" id="celsius"  required>
+                    <label for="edad">Ingresa tu edad:</label>
+                    <input type="number" id="edad"  required>
                 </div>
                 <div class="grupo-formulario">
-                    <label for="Fahrenheit">Grados Fahrenheit</label>
-                    <input type="number" id="TF" readonly>
+                    <label for="voto">¿Puedes votar?</label>
+                    <input type="text" id="voto" readonly>
                 </div>
                 <br>
-                <button type="button" onclick="convertir()" class="Bconvertir" >
+                <button type="button" onclick="calcular()" class="Bconvertir" >
                     Convertir 
                 </button>
             
             
         </form>
-    </div>
-    
+    </div>  
 </body>
 </html>
