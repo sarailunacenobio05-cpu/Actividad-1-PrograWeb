@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="css/Ejercicio 16.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="js/Ejercicio 16.js"></script>
+    
+</head>
+<body>
+    <div class="contenedor-regresar">
+        <a href="index.html" class="btn-regresar">
+        <img src="img/caja.png" alt="Menú" style="width: 20px; height: 20px;"> Menú
+        </a>
+    </div>
+    <div class="contenedor-formulario">
+        <h1>Calculadora</h1>
+        
+        <form class="formulario">
+                
+                <div class="grupo-formulario">
+                    <label for="numero1">Ingresa el primer numero:</label>
+                    <input  type="number" id="numero1"  required>
+                    <label for="numero2">Ingresa el segundo numero:</label>
+                    <input  type="number" id="numero2"  required>
+                </div>
+                <div class="grupo-formulario">
+                    
+                    <label for="resultado">El resultado es:</label>
+                    <input type="number" id="resultado" readonly>
+                    
+                </div>
+                <br>
+                <div class="contenedor-botones">
+                    <button type="button" onclick="calcularOperacion('suma')" class="Bsuma">Sumar</button>
+                    <button type="button" onclick="calcularOperacion('restar')" class="Brestar">Restar</button>
+                    <button type="button" onclick="calcularOperacion('multiplicar')" class="Bmultiplicacion">Multiplicar</button>
+                    <button type="button" onclick="calcularOperacion('dividir')" class="Bdividion">Dividir</button>
+                </div>
+            
+            
+        </form>
+    </div>  
+</body>
+</html>
